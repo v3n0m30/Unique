@@ -18,18 +18,18 @@ Advanced web vulnerability scanner covering OWASP Top 10 with multi-threaded exe
 
 
 ## Installation
-git clone https://github.com/v3n0m30/Unique.git
+    git clone https://github.com/v3n0m30/Unique.git
     cd Unique
     pip3 install -r requirements.txt
     python3 unique.py
 
 
 ## For python env installation
-git clone https://github.com/v3n0m30/Unique.git
-   cd Unique
-   python3 -m venv env
-   .env/bin/activate
-   .env/bin/activate {for those using fish shell}
+    git clone https://github.com/v3n0m30/Unique.git
+    cd Unique
+    python3 -m venv env
+    .env/bin/activate
+    .env/bin/activate {for those using fish shell}
 
 
     
