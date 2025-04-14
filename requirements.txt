@@ -1,0 +1,14 @@
+# Core Requirements
+requests==2.31.0
+beautifulsoup4==4.12.2
+dnspython==2.4.2
+PyJWT==2.8.0
+fpdf2==2.7.4
+urllib3==1.26.16
+pyfiglet==0.8.post1
+
+
+# Optional (for enhanced features)
+# selenium==4.15.2  # Required if adding browser-based XSS detection
+# pdfkit==1.0.0    # Alternative PDF generator (requires wkhtmltopdf)
+# python-whois==0.8.0  # For WHOIS lookups
