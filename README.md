@@ -33,5 +33,4 @@ Advanced web vulnerability scanner covering OWASP Top 10 with multi-threaded exe
     .env/bin/activate
     .env/bin/activate.fish {for those using fish shell}
 
-
-    
+## please if you encounter any error feel free to create a issue 
