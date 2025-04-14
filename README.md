@@ -29,7 +29,7 @@ Advanced web vulnerability scanner covering OWASP Top 10 with multi-threaded exe
     cd Unique
     python3 -m venv env
     .env/bin/activate
-    .env/bin/activate {for those using fish shell}
+    .env/bin/activate.fish {for those using fish shell}
 
 
     
