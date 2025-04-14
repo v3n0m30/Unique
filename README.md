@@ -1,51 +1,22 @@
-  Repository Structure
 
-UNIQUE-Scanner/
-│
-├── .github/
-│   └── workflows/
-│       └── python-package.yml  # CI/CD pipeline
-│
-├── wordlists/                  # Directory for wordlists
-│   ├── common_paths.txt        # Common web paths
-│   └── payloads.txt            # Injection payloads
-│
-├── reports/                    # Scan outputs (gitignored)
-│
-├── unique.py                   # Main scanner script
-├── requirements.txt            # Python dependencies
-├── LICENSE                     # MIT/GPL license
-├── README.md                   # Project documentation
-└── .gitignore                  # Ignore reports/ and sensitive files
+# UNIQUE Vulnerability Scanner
+
+Advanced web vulnerability scanner covering OWASP Top 10 with multi-threaded execution.
+
+![image](https://github.com/user-attachments/assets/77cd1608-f1fd-48d8-9632-c5496ecaf47e)
+![image](https://github.com/user-attachments/assets/62845512-fbf2-4064-81ca-42b249e4d0bf)
+![image](https://github.com/user-attachments/assets/6c30f153-411d-4613-b9c8-c060dba4468c)
 
 
-Key Features Overview
-A. Core Scanning Capabilities
+## Features
+- ✔️ 15+ vulnerability checks
+- ✔️ Color-coded console output
+- ✔️ Auto-tech detection
+- ✔️ Threaded scanning (10x faster)
+- ✔️ PoC generation for findings
 
-    OWASP Top 10 Coverage
+## Installation
 
-        A01: Broken Access Control
-
-        A02: Cryptographic Failures
-
-        A03: Injection (SQLi/XSS)
-
-        A05: Security Misconfiguration
-
-        A06: Vulnerable Components
-
-        A07: Authentication Failures
-
-        A10: SSRF
-
-    Advanced Detection
-
-        DOM-based XSS
-
-        Open Redirects
-
-        CORS Misconfigurations
-
-        Cloud Metadata Exposure
-
-        RCE Detection
+    git clone https://github.com/v3n0m30/Unique.git
+    cd Unique
+    pip3 install -r requirements.txt
